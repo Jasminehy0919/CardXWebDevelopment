@@ -1,6 +1,11 @@
 body {
   color: #FFFFFF;
-}
+  height:100vh;
+  /* cursor:url("https://i.stack.imgur.com/KDrS2.png"),auto; */
+  cursor:url("../images/x-small.png"),auto;
+
+
+  }
 
 h1 {
   display: block;
@@ -12,7 +17,7 @@ h1 {
   padding: 2% 5%;
   text-align: left;
 
-  background-image:url("../images/title-background.jpg");
+  background-image:url("../images/title_background.jpg");
 background-size: cover;
   padding-bottom: 150px;
 
