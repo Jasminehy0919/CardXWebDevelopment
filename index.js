@@ -1,14 +1,6 @@
 $(".download-button").hover(function() {
-  $(".title-QR").addClass("shake");
+  $(".title-QR").addClass("shake_effect");
   setTimeout(function(){
-    $(".title-QR").removeClass("shake");
+    $(".title-QR").removeClass("shake_effect");
   },500)
 });
-
-
-
-const cursor =document.querySelector(".cursor");
-
-document.addEventListener('mousemove', e=>{
-  cursor.setAttribute("style","top: "+e.pageY +"px; left:"+e.pageX+"px;")
-})
